@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(to top left,#28b487, #7dd56f) ;
+    height: 100vh;
+    width: 100vw;
+    color: #333;
+    background-size: cover;
+    overflow:hidden;
+    position: relative;
+
+}
+
+
+
+.open-modal{
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 10rem;
+    border-color: #fff;
+    border: none;
+    color: #444;
+    padding: 1.75rem 3.5rem;
+    cursor: pointer;
+        
+}
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    width: 100%;
+    font-size: 3rem;
+}
+#close-modal{
+    float: right;
+    cursor: pointer;
+}
+
+#Modal_window{ 
+    display: none;
+    position: relative;
+    top: 10rem;
+    height: 50%;
+    width: 40%;
+    padding:15px;
+    text-align: justify;
+    background-color: #fff;
+    margin: auto;
+}
+#outer{
+    width: 100vw;
+    height: 100vh;
+    float: left;
+    position: absolute;
+    background-blend-mode:overlay;
+    backdrop-filter: blur(50px);
+}
